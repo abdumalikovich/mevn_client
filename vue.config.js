@@ -5,7 +5,7 @@ module.exports = {
 	filenameHashing: false,
 	outputDir: path.resolve(__dirname, '../server/public'),
 	devServer: {
-		proxy: 'http://localhost:3001'
+		proxy: 'http://localhost:3002'
 	},
 }
 
